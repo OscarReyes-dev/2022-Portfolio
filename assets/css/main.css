@@ -179,10 +179,10 @@ padding: 15px 40px;
     background-color: cornflowerblue;
 }
 #about-Me--Section .section-Title {
-    font-family: Impact!important;
+    font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     text-decoration: underline;
     /* font-size: 100px; */
-    font-weight: 700;
+    font-weight: 900;
     justify-content: left;
     padding-right: 1em;
     color: rgb(0, 0, 0);
@@ -237,7 +237,7 @@ padding: 15px 40px;
     font-size: 80px;
     font-weight: 700;
     text-decoration: underline;
-    font-family: Impact;
+    font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     /* text-transform: capitalize; */
 }
 #web-Technologies--Section .tech-Column{
@@ -370,7 +370,7 @@ padding: 15px 40px;
  
 #current-Work--Section .bold-Text{
     font-weight:900;
-    font-family: impact!important;
+    font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-size: 30px;
 }
 
@@ -472,7 +472,7 @@ padding: 15px 40px;
     }
 #about-Me--Section .section-Title {
     /* font-size: 80px; */
-    font-weight: 700;
+    font-weight: 900;
     justify-content: left;
     padding-right: 1em;
     color: rgb(0, 0, 0);
@@ -674,7 +674,7 @@ padding: 1em 1em 2em;
 
   #current-Work--Section .bold-Text {
     font-weight: 900;
-    font-family: impact !important;
+    font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-size: 25px;
   }
   .text-Column {
