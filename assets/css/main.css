@@ -297,8 +297,8 @@ padding: 15px 40px;
     box-shadow: rgb(0, 0, 0) 15px 15px 0px 0px;
   }
   #latest-Work--Section .text-Column{
-      /* background: rgb(224, 255, 138);
-      text-decoration: none; */
+      background: rgb(224, 255, 138);
+      /* text-decoration: none; */
   }
 
 
@@ -642,7 +642,10 @@ padding: 1em 1em 2em;
     width: 185px;
   }
 
-
+  .hero-section .x-span {
+    font-size: 10px;
+    bottom: 3px;
+  }
 
 
 
