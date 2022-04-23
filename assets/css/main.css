@@ -175,7 +175,7 @@ padding: 15px 40px;
 
     /* About Me Section */
 #about-Me--Section{
-    padding: 4em 0em;
+    padding: 10em 0em;
     background-color: cornflowerblue;
 }
 #about-Me--Section .section-Title {
@@ -227,7 +227,7 @@ padding: 15px 40px;
 /* Tech Stack */
 #web-Technologies--Section {
     background-color: cornflowerblue;
-    padding: 6em 0;
+    padding: 10em 0;
 }
 .title-Row{
     text-align: center;
@@ -278,7 +278,7 @@ padding: 15px 40px;
 
 #latest-Work--Section{
     background-color: cornflowerblue;
-    padding: 6em 0;
+    padding: 10em 0;
 
 }
 
@@ -367,6 +367,7 @@ padding: 15px 40px;
     box-shadow: rgb(0, 0, 0) 12px 12px 0px 0px;
 }
 .text-Column .text{
+    font-weight: 900;
     font-family: monaco;
     color: black;
     font-size: 20px;
@@ -520,7 +521,11 @@ padding: 15px 40px;
 
 
 
+
+
+
 /* About ME Sections */
+
 #about-Me--Section .section-Row{
     display: block;
 }
@@ -531,6 +536,8 @@ padding: 15px 40px;
     max-width: 100%;
     padding: 0 2em;
 }
+
+
 
 
 
@@ -572,7 +579,7 @@ padding: 15px 40px;
     padding: 2em;
 }
 #about-Me--Section .text {
-    font-size: 18px;
+    font-size: 16px;
 }
 }
 
