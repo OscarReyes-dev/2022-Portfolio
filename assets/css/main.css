@@ -178,15 +178,23 @@ padding: 15px 40px;
     padding: 10em 0em;
     background-color: cornflowerblue;
 }
+
+
+#about-Me--Section .section-Row{
+    align-items: center;
+}
 #about-Me--Section .section-Title {
     font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     text-decoration: underline;
     /* font-size: 100px; */
     font-weight: 900;
-    justify-content: left;
+    justify-content: center;
     padding-right: 1em;
     color: rgb(0, 0, 0);
 }
+
+
+
 #about-Me--Section .text-Column{
     padding: 3em;
     border: 4px solid black;
@@ -483,7 +491,7 @@ padding: 15px 40px;
 #about-Me--Section .section-Title {
     /* font-size: 80px; */
     font-weight: 900;
-    justify-content: left;
+    /* justify-content: left; */
     padding-right: 1em;
     color: rgb(0, 0, 0);
 }
