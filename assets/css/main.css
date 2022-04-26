@@ -53,6 +53,14 @@ padding: 15px 0px;
 #header .mobile-nav--Column .nav-List--Link{
 font-size: 20px;
 }
+.nav-up {
+    transform : translateY(-341px);
+    transition : transform 0.3s 0s ease-in-out;
+  }
+  .nav-down {
+    transform : translateY(0);
+    transition : transform 0.3s 0s ease-in-out;
+  }
 
 
 
