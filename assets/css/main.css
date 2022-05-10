@@ -428,7 +428,7 @@ font-family: helvetica;
     font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-weight: 900;
     font-size: 25px;
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 
@@ -450,7 +450,7 @@ font-family: helvetica;
     padding-bottom: 2em;
   }
 #latest-Work--Section .description-Row{
-    padding: 0em 0 2em;
+    padding: 0em 0 4em;
 }
 #latest-Work--Section .description-Text{
     font-size: 22px;
@@ -477,8 +477,8 @@ line-height: 35px;
 
 #latest-Work--Section img {
     width: 100%;
-    border: 4px solid;
-    border-radius: 25px;
+    border: 1px solid;
+    border-radius: 15px;
     /* box-shadow: rgb(0, 0, 0) 15px 15px 0px 0px; */
     /* box-shadow: rgba(0, 0, 0, 0.472) 18px 18px 0px 0px; */
 }
@@ -488,6 +488,19 @@ line-height: 35px;
 } */
 
 
+#latest-Work--Section button{
+    background-color: black;
+    border: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+#latest-Work--Section button a{
+    color: white;
+    /* padding: 10px; */
+    font-size: 20px;
+    border-radius: 10px;
+    /* background-color: black; */
+}
 
 
 
@@ -808,7 +821,7 @@ line-height: 35px;
 
 #latest-Work--Section .description-Text{
     font-size: 18px;
-line-height: 30px;
+    line-height: 30px;
 }
 
 
