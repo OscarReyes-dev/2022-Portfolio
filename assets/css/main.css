@@ -522,7 +522,6 @@ padding: 15px 40px;
 }
 
 #contact-Section .input{
-    padding: em;
     border: 2px solid #004c3f;
     border-radius: 10px;
     width: 100%;
@@ -533,16 +532,11 @@ padding: 15px 40px;
     box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
     background: #004c3f;
     color: white;
-    width: 150px;
+    width: 120px;
+    height: 50px;
     border-radius: 10px;
     border: #004c3f;
   }
-
-
-
-
-
-
 
 
 
@@ -763,6 +757,9 @@ padding: 15px 40px;
 
 
 /* TEch Stack */
+#web-Technologies--Section {
+    padding: 4em 0;
+  }
 #web-Technologies--Section .tech-Name{
     padding-top: 2em ;
 }
@@ -772,7 +769,9 @@ padding: 15px 40px;
 
 
 
-
+#latest-Work--Section {
+    padding: 5em 0;
+  }
 
 #latest-Work--Section .description-Text{
     font-size: 18px;
@@ -781,6 +780,14 @@ padding: 15px 40px;
 #latest-Work--Section .description-Text b {
     font-size: 22px;
 }
+
+
+
+#current-Work--Section {
+    padding: 3em 0;
+  }
+
+
 
 .page-Title {
     font-size: 16px;
@@ -823,6 +830,13 @@ padding: 15px 40px;
     line-height: 36px;
 }
 
+
+
+
+
+#contact-Section .input{
+    text-indent: 10px;
+}
 
 
 
@@ -927,7 +941,7 @@ padding: 1em 1em 2em;
 
 
   .text-Column .text {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
