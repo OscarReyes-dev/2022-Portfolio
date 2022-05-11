@@ -1,5 +1,4 @@
 #header{
-    /* position: sticky; */
     position: fixed;
     width: 100%;
     top: 0;
@@ -51,30 +50,25 @@
 }
 /* Mobile Navigation Links */
 #header .mobile-nav--Column .nav-List--Item{
-padding: 15px 0px;
-text-align: center;
+    padding: 15px 0px;
+    text-align: center;
 }
 #header .mobile-nav--Column .nav-List--Link{
-font-size: 20px;
+    font-size: 20px;
 }
 .nav-up {
     transform : translateY(-341px);
     transition : transform 0.3s 0s ease-in-out;
-  }
-  .nav-down {
+}
+.nav-down {
     transform : translateY(0);
     transition : transform 0.3s 0s ease-in-out;
-  }
-
-
-  .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    /* background-color: rgb(255, 255, 255); */
 }
-/* 
-.rfeer{
- color: rgb(0, 0, 0);
-} */
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 
 
@@ -82,7 +76,6 @@ font-size: 20px;
 
 
 /* Hero Section */
-
 .hero-section {
     line-height: 1.35;
     background-color:  #004c3f;
@@ -94,7 +87,6 @@ font-size: 20px;
     column-gap: 0px;
     grid-template-columns: auto repeat(24, 1fr) auto;
     grid-template-rows: 4em 8em 8em 1fr 1.5em auto 20em 1em;
-    /* grid-template-rows: 16em 8em 1fr 1.5em auto 24em 1em; */
     height: auto;
     box-sizing: border-box;
     margin: 0px;
@@ -146,16 +138,11 @@ font-size: 20px;
 }
 .hero-section .hero-grid .hero-textbox-2 img{
     width: 250px;
-    /* background-color: white; */
     padding: 0em;
     border-radius: 50%;
     border: 4px solid #fffcc6;
     box-shadow: rgba(0, 0, 0, 0.472) 10px 10px 7px 7px;
 }
-/* .hero-section .hero-grid .hero-textbox-2 .textbox-background {
-z-index: 99999999;
-background-image: url(/assets/images/me.jpg);
-} */
 .hero-section .top-Text{
     font-size: 24px;
     font-weight: 900;
@@ -204,29 +191,7 @@ padding: 15px 40px;
     top: 5px;
 }
 
-
-
-
-/* .custom-shape-divider-bottom-1652134219 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1652134219 svg {
-    position: relative;
-    display: block;
-    width: calc(185% + 1.3px);
-    height: 213px;
-}
-
-.custom-shape-divider-bottom-1652134219 .shape-fill {
-    fill: white;
-} */
+/* Hero Custom Background Shape */
 .custom-shape-divider-bottom-1652135517 {
     position: absolute;
     bottom: 0;
@@ -236,14 +201,12 @@ padding: 15px 40px;
     line-height: 0;
     transform: rotate(180deg);
 }
-
 .custom-shape-divider-bottom-1652135517 svg {
     position: relative;
     display: block;
     width: calc(146% + 1.3px);
     height: 68px;
 }
-
 .custom-shape-divider-bottom-1652135517 .shape-fill {
     fill: #FFFFFF;
 }
@@ -253,99 +216,43 @@ padding: 15px 40px;
 
 
 
-.bold-Title{
-    font-size: 22px;
-}
-
-.sub-text{
-    font-weight: 300;
-        color: rgb(68, 68, 68);
-        font-size: 22px;
-        margin: 1em;
-        line-height: 50px;
-        text-indent: 15px;
-        font-family: Helvetica;
-        /* letter-spacing: 0px; */
-}
-
-
-
-
-
-
-
-
-
     /* About Me Section */
 #about-Me--Section{
     padding: 2em 0em;
-    /* background-color:  #004c3f; */
 }
-
-
 #about-Me--Section .section-Row{
     align-items: center;
 }
 #about-Me--Section .section-Title {
     font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     text-decoration: underline;
-    /* font-weight: 900; */
     justify-content: center;
-    padding-right: 1em;
+    padding-bottom: .5em;
     color: rgb(0, 0, 0);
 }
-
-
-
 #about-Me--Section .text-Column{
     padding: 3em;
-    /* border: 4px solid black; */
-    /* border-radius: 25px; */
-    /* background: rgb(183, 225, 255);s */
-    /* box-shadow: rgb(0, 0, 0) -12px 12px 0px 0px; */
-    /* box-shadow: rgba(0, 0, 0, 0.472) 18px 18px 0px 0px; */
 }
 #about-Me--Section .text{
     font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     color: black;
     font-size: 30px;
-    /* font-weight: 900; */
     margin-bottom: 1em;
     line-height: 40px;
     text-indent: 15px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.visibility-Hidden{
-    visibility: hidden;
+.sub-text{
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 100;
+    color: rgb(68, 68, 68);
+    font-family: helvetica;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* .visibility-Hidden{
+    visibility: hidden;
+} */
 
 
 
@@ -358,11 +265,9 @@ padding: 15px 40px;
 
 /* Tech Stack */
 #web-Technologies--Section {
-    /* background-color:  #004c3f; */
     padding: 10em 0;
 }
 .title-Row{
-    /* text-align: center; */
     padding-bottom: 2em;
 }
 .section-Title{
@@ -371,35 +276,25 @@ padding: 15px 40px;
     text-decoration: underline;
     font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
-
-/* Tech Tailored specifically to.. TExt */
-
 .description-Row{
     padding: 0em 0 2em;
+}
+#web-Technologies--Section .description-Text{
+    text-align: center;
 }
 .description-Text{
     font-size: 22px;
     line-height: 35px;
-font-weight: 100;
-/* text-align: center; */
-/* text-transform: uppercase; */
-/* font-style: italic; */
-color: rgb(68, 68, 68);
-font-family: helvetica;
+    font-weight: 100;
+    color: rgb(68, 68, 68);
+    font-family: helvetica;
 }
 .description-Text b{
     font-weight: 800;
-    
 }
-
 #web-Technologies--Section .tech-Column{
     text-align: center;
     padding: 1em 0;
-    /* background: #96a4db; */
-    /* border: 2px solid #58638c; */
-    /* border-radius: 25px; */
-    /* box-shadow: rgb(0, 0, 0) 15px 15px 0px 0px; */
-    /* box-shadow: rgba(0, 0, 0, 0.472) 18px 18px 0px 0px; */
 }
 #web-Technologies--Section .tech-Column img{
     width: 100%;
@@ -407,7 +302,6 @@ font-family: helvetica;
     object-fit: contain;
 }
 #web-Technologies--Section .tech-Name{
-    /* font-family: monaco; */
     color: rgb(0, 0, 0);
     text-decoration: underline;
     padding-top: 3em ;
@@ -547,10 +441,11 @@ font-family: helvetica;
 
 #current-Work--Section img {
     width: 100%;
-    border: 4px solid;
+    box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
+    /* border: 4px solid; */
     border-radius: 25px;
     /* box-shadow: rgb(0, 0, 0) 15px 15px 0px 0px; */
-    box-shadow: rgba(0, 0, 0, 0.472) 18px 18px 0px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.472) 18px 18px 0px 0px; */
   }
 
 
@@ -619,17 +514,23 @@ font-family: helvetica;
 
 
 #contact-Section{
-    /* background:  #004c3f; */
     padding: 8em 0em;
 }
+
+#contact-Section .form-Container{
+    padding: 2em 0;
+}
+
 #contact-Section .input{
     padding: em;
     border: 2px solid #004c3f;
     border-radius: 10px;
     width: 100%;
+    text-indent: 20px;
 }
 
 #contact-Section button{
+    box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
     background: #004c3f;
     color: white;
     width: 150px;
@@ -641,6 +542,38 @@ font-family: helvetica;
 
 
 
+
+
+
+
+  #thanks-Section .thanks-Message {
+  text-align: center;
+  top: 50%;
+  left: 0%;
+  position: absolute;
+  color: #424242;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+#thanks-Section button{
+    background-color: transparent;
+    border: none;
+    margin-top: 1em;
+}
+#thanks-Section .button{
+    margin-top: 2em;
+    background: #004c3f;
+    color: white;
+    /* width: 150px; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: #004c3f;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
+  }
 
 
 
@@ -864,23 +797,16 @@ font-family: helvetica;
 #about-Me--Section .text-Column {
     padding: 0em;
 }
-/* #about-Me--Section .text {
-    font-size: 16px;
-} */
 
 .bold-Title{
     font-size: 20px;
 }
 
 .sub-text{
-    /* font-weight: 600; */
-        /* color: black; */
-        font-size: 18px;
-        margin-bottom: .5em;
-        line-height: 30px;
-        text-indent: 15px;
-        /* text-align: center; */
-        /* letter-spacing: 0px; */
+    font-size: 18px;
+    margin-bottom: .5em;
+    line-height: 30px;
+    text-indent: 15px;
 }
 
 
@@ -895,6 +821,25 @@ font-family: helvetica;
 }
 #about-Me--Section .text{
     line-height: 36px;
+}
+
+
+
+
+
+
+#thanks-Section .thanks-Message {
+    top: 35%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+
+#thanks-Section .button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
 
