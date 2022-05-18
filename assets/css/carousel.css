@@ -1,0 +1,55 @@
+#carousel-section button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+  
+#carousel-section .carousel-img {
+    display: block;
+    width: 90px;
+    max-height: 100%;
+}
+  
+#carousel-section {
+    width: 100%;
+    overflow: hidden;
+}
+  
+#carousel-section article {
+    display: flex;
+    width: 200%;
+    animation: bannermove 20s linear infinite;
+}
+  
+#carousel-section article.paused {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+  
+#carousel-section div {
+    width: 100%;
+}
+  
+#carousel-section ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+  
+#carousel-section li {
+    width: 100%;
+    padding: 0 1em;
+}
+
+  
+@keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+}
+  
