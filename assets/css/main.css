@@ -452,7 +452,7 @@ padding: 15px 40px;
     /* color: rgb(68, 68, 68); */
     color: white;
     background-color: black;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 10px;
     font-weight: 500;
     /* text-decoration: underline; */
@@ -843,7 +843,7 @@ padding: 15px 40px;
   }
 
  .page-Link {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px 20px;
   }
 
@@ -903,6 +903,26 @@ padding: 15px 40px;
     border-radius: 10px;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+#carousel-section .carousel-img {
+    width: 80px;
+}
+
+  
+#carousel-section article {
+    display: flex;
+    width: 500%;
+    animation: bannermove 15s linear infinite;
+}
+  
+  
 
 
 
