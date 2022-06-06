@@ -390,6 +390,34 @@ padding: 15px 40px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #latest-Work--Section{
     padding: 10em 0;
 }
@@ -399,7 +427,7 @@ padding: 15px 40px;
     padding-bottom: 2em;
   }
 #latest-Work--Section .description-Row{
-    padding: 0em 0 2em;
+    padding: 0em 0 1em;
 }
 #latest-Work--Section .description-Text{
     font-size: 20px;
@@ -465,6 +493,36 @@ padding: 15px 40px;
     /* background-color: black; */
     box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
 }
+
+
+
+#latest-Work--Section .description-Column{
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -772,7 +830,10 @@ padding: 15px 40px;
 #latest-Work--Section .project-Column {
     margin-bottom: 2em;
   }
-
+  #latest-Work--Section .description-Column{
+    margin-left: 0em;
+    margin-top: 2em;
+}
 
 
 
