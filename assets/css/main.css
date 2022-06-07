@@ -5,7 +5,7 @@
     z-index: 10;
 }
 #header .header-Row{
-    background-color:  #004c3f;
+    background-color:  #ff9f23;
     padding: .5em 0;
 }
 
@@ -78,7 +78,7 @@
 /* Hero Section */
 .hero-section {
     line-height: 1.35;
-    background-color:  #004c3f;
+    background-color:  #ff9f23;
     position: relative;
 }
 .hero-section .hero-grid{
@@ -547,7 +547,7 @@ padding: 15px 40px;
 
 /* Current Work */
 #current-Work--Section{
-    /* background-color:  #004c3f; */
+    /* background-color:  #ff9f23; */
     padding: 6em 0;
 
 }
@@ -635,7 +635,7 @@ padding: 15px 40px;
 
 #contact-Section .input{
     font-size: 18px;
-    border: 2px solid #004c3f;
+    border: 2px solid #ff9f23;
     border-radius: 10px;
     width: 100%;
     text-indent: 20px;
@@ -644,12 +644,12 @@ padding: 15px 40px;
 #contact-Section button{
     margin-left: 1em;
     box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
-    background: #004c3f;
+    background: #ff9f23;
     color: white;
     width: 120px;
     height: 50px;
     border-radius: 10px;
-    border: #004c3f;
+    border: #ff9f23 ;
   }
 
 
@@ -673,12 +673,12 @@ padding: 15px 40px;
 }
 #thanks-Section .button{
     margin-top: 2em;
-    background: #004c3f;
+    background: #ff9f23;
     color: white;
     /* width: 150px; */
     padding: 10px 20px;
     border-radius: 10px;
-    border: #004c3f;
+    border: #ff9f23;
     font-size: 18px;
     box-shadow: rgba(0, 0, 0, 0.472) 0px 0px 15px 0px;
   }
@@ -1061,7 +1061,7 @@ padding: 1em 1em 2em;
   }
 
   .hero-section .hero-grid .hero-textbox-2 {
-    grid-area: 4 / 14 / 11 / 18;
+    grid-area: 4 / 16 / 11 / 18;
   }
   .hero-section .hero-grid .hero-textbox-2 img {
     width: 40%;
