@@ -228,10 +228,12 @@ padding: 15px 40px;
     text-decoration: underline;
     justify-content: center;
     padding-bottom: .5em;
+    margin-right: 1em;
     color: rgb(0, 0, 0);
 }
 #about-Me--Section .text-Column{
     padding: 3em;
+    display: flex;
 }
 #about-Me--Section .text{
     font-family: "Museo Sans Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -323,7 +325,7 @@ padding: 15px 40px;
   
 #carousel-section .carousel-img {
     display: block;
-    width: 90px;
+    width: 75px;
     max-height: 100%;
 }
   
@@ -824,7 +826,11 @@ padding: 15px 40px;
     padding: 0 2em;
 }
 
-
+/* About ME */
+#about-Me--Section .text-Column{
+    /* padding: 3em; */
+    display: block;
+}
 
 
 
@@ -863,6 +869,10 @@ padding: 15px 40px;
 .section-Title{
     font-size: 45px;
 }
+
+
+
+
 
 
 
@@ -975,7 +985,7 @@ padding: 15px 40px;
 
 
 #carousel-section .carousel-img {
-    width: 80px;
+    width: 70px;
 }
 
   
@@ -1117,7 +1127,9 @@ padding: 1em 1em 2em;
   
 
 
-
+  #carousel-section .carousel-img {
+    width: 50px;
+}
 
 
 
