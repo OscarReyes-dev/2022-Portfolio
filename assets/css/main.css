@@ -141,7 +141,7 @@
     padding: 0em;
     border-radius: 50%;
     border: 4px solid #fffcc6;
-    box-shadow: rgba(0, 0, 0, 0.472) 10px 10px 7px 7px;
+    box-shadow: rgba(0, 0, 0, 0.096) -10px 10px 0px 0px;
 }
 .hero-section .top-Text{
     font-size: 55px;
